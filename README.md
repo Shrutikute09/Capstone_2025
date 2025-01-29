@@ -64,9 +64,9 @@ The analysis integrates data from the following publicly available datasets:
 
 ## Contributors
 
-- **Atreyo Das**: Advanced data preprocessing and time-series analysis.  
-- **Omer Koc**: Predictive modeling and machine learning.  
-- **Shruti Suhas Kute**: Data visualization and dashboard development.
+- **Atreyo Das**
+- **Omer Koc**  
+- **Shruti Suhas Kute** 
 
 ## License
 
