@@ -62,30 +62,10 @@ The analysis integrates data from the following publicly available datasets:
 - **Platforms**: Tableau, Google Colab, Jupyter Notebook  
 - **Deployment**: Streamlit/Flask  
 
-## How to Run the Project
-
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/your-username/air-quality-analysis.git
-   ```
-2. Install the required dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Download the datasets and place them in the `data/` directory.  
-4. Run the preprocessing script:  
-   ```bash
-   python preprocess.py
-   ```
-5. Launch the dashboard:  
-   ```bash
-   streamlit run dashboard.py
-   ```
-
 ## Contributors
 
 - **Atreyo Das**: Advanced data preprocessing and time-series analysis.  
-- **Ömer Seyfeddin Koç**: Predictive modeling and machine learning.  
+- **Omer Koc**: Predictive modeling and machine learning.  
 - **Shruti Suhas Kute**: Data visualization and dashboard development.
 
 ## License
