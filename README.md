@@ -74,5 +74,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Data provided by [EPA AirData](https://aqs.epa.gov/), [GHCN-Daily](https://www.ncei.noaa.gov/), and city-specific traffic databases.  
+- Data provided by [EPA AirData](https://aqs.epa.gov/), [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api), and city-specific traffic databases.  
 - Supervised by Dr. Fatema Nafa, Northeastern University.
