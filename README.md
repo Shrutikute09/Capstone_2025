@@ -20,12 +20,12 @@ The analysis integrates data from the following publicly available datasets:
    - Size: Millions of records spanning multiple years.  
 
 2. **Weather Dataset**  
-   - Source: [GHCN-Daily](https://www.ncei.noaa.gov/cdo-web/datatools/selectlocation)  
+   - Source: [GHCN-Daily](https://open-meteo.com/en/docs/historical-weather-api)  
    - Features: Temperature, precipitation, wind speed, and more.  
    - Size: Over 1.4 billion data points from 100,000+ stations worldwide.  
 
 3. **Traffic Dataset**  
-   - Source: Aggregated from city-specific databases (e.g., NYC DOT, SFCTA).  
+   - Source: Aggregated from city-specific databases [NYC DOT](https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt/about_data)  
    - Features: Traffic volume, timestamps, road segments, congestion levels.  
    - Format: CSV/JSON files, varying by city.  
 
