@@ -20,7 +20,7 @@ The analysis integrates data from the following publicly available datasets:
    - Size: Millions of records spanning multiple years.  
 
 2. **Weather Dataset**  
-   - Source: [GHCN-Daily](https://open-meteo.com/en/docs/historical-weather-api)  
+   - Source: [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api)  
    - Features: Temperature, precipitation, wind speed, and more.  
    - Size: Over 1.4 billion data points from 100,000+ stations worldwide.  
 
