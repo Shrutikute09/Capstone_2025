@@ -25,7 +25,7 @@ The analysis integrates data from the following publicly available datasets:
    - Size: Over 1.4 billion data points from 100,000+ stations worldwide.  
 
 3. **Traffic Dataset**  
-   - Source: Aggregated from city-specific databases -> [NYC DOT](https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt/about_data)  
+   - Source: Aggregated from city-specific databases -> [NYC DOT](https://catalog.data.gov/dataset/mta-bridges-and-tunnels-hourly-crossings-beginning-2019)  
    - Features: Traffic volume, timestamps, road segments, congestion levels.  
    - Format: CSV/JSON files, varying by city.  
 
@@ -42,7 +42,7 @@ The analysis integrates data from the following publicly available datasets:
 - Identifying correlations and anomalies.
 
 ### 3. Modeling and Algorithms
-- Techniques: Regression (Linear, Random Forest), Clustering (K-means), Time-series Forecasting (ARIMA, LSTM).  
+- Techniques: Regression (Linear, Random Forest), Time-series Forecasting (ARIMA, LSTM).  
 - Evaluation Metrics: R², MAE, RMSE.
 
 ### 4. Deployment
