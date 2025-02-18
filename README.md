@@ -25,7 +25,7 @@ The analysis integrates data from the following publicly available datasets:
    - Size: Over 1.4 billion data points from 100,000+ stations worldwide.  
 
 3. **Traffic Dataset**  
-   - Source: Aggregated from city-specific databases -> [NYC DOT](https://catalog.data.gov/dataset/mta-bridges-and-tunnels-hourly-crossings-beginning-2019)  
+   - Source: Aggregated from city-specific databases -> [DATA.GOV](https://catalog.data.gov/dataset/mta-bridges-and-tunnels-hourly-crossings-beginning-2019)  
    - Features: Traffic volume, timestamps, road segments, congestion levels.  
    - Format: CSV/JSON files, varying by city.  
 
@@ -74,5 +74,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Data provided by [EPA AirData](https://aqs.epa.gov/), [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api), and city-specific traffic databases.  
+- Data provided by [EPA AirData](https://aqs.epa.gov/), [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api), and [DATA.GOV](https://catalog.data.gov/dataset/mta-bridges-and-tunnels-hourly-crossings-beginning-2019).  
 - Supervised by Dr. Fatema Nafa, Northeastern University.
