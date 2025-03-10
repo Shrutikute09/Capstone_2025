@@ -48,12 +48,17 @@ The analysis integrates data from the following publicly available datasets:
 
 ### 3. Modeling and Algorithms
 - **Techniques:**
-  - Regression Models: Linear Regression, Random Forest Regressor (Grid Search optimization)
-  - Time-series Forecasting: ARIMA, LSTM, XGBoost
+  - Regression Models: XGBoost, Random Forest Regressor (Grid Search optimization)
+  - Time-series Forecasting: ARIMA, LSTM
 - **Evaluation Metrics:** R², MAE, RMSE
 - Models:
   - `Air Quality Prediction - Random Forest Regressor used Grid Search.ipynb`
-  - `XGBoost_PM2.5.ipynb` 
+  - `Random Forest - Updated Feature Engineering.ipynb`
+  - `XGBoost_PM2.5.ipynb`
+  - `XGBoost_PM10.ipynb`
+  - `XGBoost_NO2.ipynb`
+  - `LSTM - Time Series.ipynb`
+  - `AirQuality_ARIMA.ipynb`
 
 ## Tools and Technologies
 
