@@ -18,9 +18,8 @@ The analysis integrates data from the following publicly available datasets:
   
 ### 1. Air Quality Dataset
 - **Source:** EPA AirData
-- **Features:** Pollutant concentrations (PM2.5, NO2, CO, O3), geographic and temporal data, monitoring methods.
+- **Features:** Pollutant concentrations (PM2.5, PM10, NO2), geographic and temporal data, monitoring methods.
 - **Size:** Millions of records spanning multiple years.
-- **Processed File:** `updated_air_quality_dataset.csv`
 
 ### 2. Weather Dataset
 - **Source:** Open-Meteo
@@ -28,9 +27,11 @@ The analysis integrates data from the following publicly available datasets:
 - **Size:** Over 1.4 billion data points from 100,000+ stations worldwide.
 
 ### 3. Traffic Dataset
-- **Source:** Aggregated from city-specific databases -> [DATA.GOV](https://catalog.data.gov/dataset/mta-bridges-and-tunnels-hourly-crossings-beginning-2019) 
-- **Features:** Traffic volume, timestamps, road segments, congestion levels.
-- **Format:** CSV/JSON files, varying by city.
+- **Source:**  DATA.NY.GOV
+- **Features:** Traffic count, Vehicle class, Direction, Facility.
+- **Format:** CSV file.
+
+**Processed File:** `updated_air_quality_dataset.csv`
 
 ## Methodology
 
@@ -38,13 +39,13 @@ The analysis integrates data from the following publicly available datasets:
 - Handling missing data and normalizing formats.
 - Aligning temporal and geographic attributes across datasets.
 - Decoding quality flags and transforming features.
-- Data merging performed in `Air_Quality_Dataset_Merging.ipynb`.
+- Data merging performed in `Air_Quality_Dataset_Merging.ipynb` & `Adding_Weather_Traffic_Data.ipynb`.
 
 ### 2. Exploratory Data Analysis (EDA)
 - **Tools:** Matplotlib, Seaborn.
 - Analyzing trends in pollutants, weather, and traffic patterns.
 - Identifying correlations and anomalies.
-- Analysis script: `NYC-NO2.py`
+- Analysis script: `EDA.ipynb`
 
 ### 3. Modeling and Algorithms
 - **Techniques:**
@@ -60,17 +61,25 @@ The analysis integrates data from the following publicly available datasets:
   - `LSTM - Time Series.ipynb`
   - `AirQuality_ARIMA.ipynb`
 
+### 4. Data Visualization
+- **Tools:** Tableau
+- Showcasing trends in pollutant levels over the years
+- Displaying correlation between air pollution metrics and other features
+- Presenting model performances through graphs
+- **Link:** [Dashboard](https://public.tableau.com/app/profile/atreyo.das/viz/Capstone_Air_Quality_17440009911560/Dashboard1) 
+
+  
 ## Tools and Technologies
 
-- **Programming Languages**: Python, SQL  
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, PyTorch  
+- **Programming Languages**: Python 
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, XGBoost, Scikit-learn, Tensorflow, Statsmodel 
 - **Platforms**: Tableau, Google Colab, Jupyter Notebook  
 
 ## Contributors
 
 - **Atreyo Das**
 - **Omer Koc**  
-- **Shruti Suhas Kute** 
+- **Shruti Suhas Kute**
 
 ## License
 
@@ -78,5 +87,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Data provided by [EPA AirData](https://aqs.epa.gov/), [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api), and [DATA.GOV](https://catalog.data.gov/dataset/mta-bridges-and-tunnels-hourly-crossings-beginning-2019).  
+- Data provided by [EPA AirData](https://aqs.epa.gov/), [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api), and [DATA.NY.GOV](https://catalog.data.gov/dataset/mta-bridges-and-tunnels-hourly-crossings-beginning-2019).  
 - Supervised by Dr. Fatema Nafa, Northeastern University.
